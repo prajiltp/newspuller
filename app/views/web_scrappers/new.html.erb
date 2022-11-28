@@ -1,0 +1,7 @@
+<div class = "filter_box" style = "width:95%; margin-top: 5%;">
+<%= form_for :web_scrapper, url: { action: "index" }, method: 'get', remote: true do |f| %>
+  <%= f.text_field :search, placeholder:"search string", id: 'myInput' %>
+  <%= f.submit "Submit" %>
+<%end%>
+</div>
+<div id='searchResult'></div>
