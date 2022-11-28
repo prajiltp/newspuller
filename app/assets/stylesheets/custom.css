@@ -3977,3 +3977,7 @@ position: absolute;
   top: 55% !important;
   position: fixed;
 }
+
+.card {
+  border: none !important;
+}
