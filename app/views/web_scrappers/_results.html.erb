@@ -1,4 +1,4 @@
-<h2>Best results we found for you</h2>
+<h8>Best results we found for you</h8>
 <div id="newsCarousal" class="carousel slide" data-bs-ride="carousel">
 	<!-- Indicators/dots -->
   <div class="carousel-indicators">
@@ -8,14 +8,15 @@
   </div>
 	<div class="carousel-inner">
 		<%@data.each do |key, news|%>
+      <%next if news.blank?%>
 			<div class="carousel-item <%=key.downcase.to_s == 'indiatoday' ? 'active' : ''%>">
-        <h1 style="text-align: center;"><%=key.to_s.titleize%></h1>
-        <div class="row row-cols-1 row-cols-md-4 g-4">
+        <h1 style="text-align: center;font-weight: 700; font-size: 60px;"><%=key.to_s.titleize%></h1>
+        <div class="row row-cols-1 row-cols-md-3 g-3">
   				<%news.each do |content|%>
-            <div class='col'>
+            <div class='col card-col'>
               <div class="card" style="width: 35rem;">
                  <div class="card-body">
-    				  	   <h2 class="card-title"><%=link_to content['heading'], content['url'], target: :_blank%></h2>
+    				  	   <h4 class="card-title"><%=link_to content['heading'], content['url'], target: :_blank%></h4>
     				  	   <p class="card-text"><%= content['desc']%></p>
     				     </div>
               </div>

@@ -3,6 +3,7 @@ import 'jquery'
 import 'jquery_ujs'
 $(document).ajaxStart(function () {
   //show ajax indicator
+  $("#searchResult").html("");
   $('#result_loading').fadeIn(100);
 }).ajaxStop(function () {
     //hide ajax indicator
