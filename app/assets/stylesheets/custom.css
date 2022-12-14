@@ -4009,6 +4009,7 @@ position: absolute;
 
 #newsCarousal .carousel-control-next, #newsCarousal .carousel-control-prev {
   width: 46%;
+  height: 1%;
 }
 
 .carousel-item .papper-name {
