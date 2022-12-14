@@ -3975,11 +3975,11 @@ position: absolute;
 }
 
 .carousel-icon {
-  background-color: grey;
+  background-color: #a0bf9e;
   size: 20px;
-  width: 3em !important;
-  height: 5em !important;
-  top: 38.5% !important;
+  width: 2em !important;
+  height: 3em !important;
+  top: 39.9% !important;
   position: fixed;
 }
 
@@ -4005,4 +4005,15 @@ position: absolute;
 .gh-info {
   height: 180px;
   width: 100%;
+}
+
+#newsCarousal .carousel-control-next, #newsCarousal .carousel-control-prev {
+  width: 46%;
+}
+
+.carousel-item .papper-name {
+  text-align: center;
+  font-weight: 700;
+  font-size: 60px;
+  background-color: #a0bf9e;
 }
