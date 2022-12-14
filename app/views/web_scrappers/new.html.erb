@@ -1,6 +1,6 @@
 <div class = "filter_box" style = "width:65%;">
 <%= form_for :web_scrapper, url: { action: "index" }, method: 'get', remote: true do |f| %>
-  <%= f.text_field :search, placeholder: "Guidehouse News search", id: 'myInput' %>
+  <%= f.text_field :search, placeholder: "Guidehouse News search", id: 'myInput', autocomplete: 'off' %>
   <%= f.submit 'submit', type: 'image', src: '/assets/search-icon.gif', class: 'submit-button' %>
 <%end%>
 </div>
