@@ -334,7 +334,7 @@ padding: 0 5px 0 0; }
   background-position: 10px 12px;
   background-repeat: no-repeat;
   width: 90%;
-  font-size: 16px;
+  font-size: 22px;
   padding: 12px 20px 12px 40px;
   border: 1px solid #ddd;
   margin-bottom: 12px;
@@ -3979,7 +3979,7 @@ position: absolute;
   size: 20px;
   width: 2em !important;
   height: 3em !important;
-  top: 39.9% !important;
+  top: 36.9% !important;
   position: fixed;
 }
 
@@ -4017,4 +4017,21 @@ position: absolute;
   font-weight: 700;
   font-size: 60px;
   background-color: #a0bf9e;
+  color: black;
+}
+
+.indiatoday h1 {
+  font-family: var(--fontfamily),helvatica,Arial,sans-serif;
+}
+
+.mathrubhumi h1 {
+  font-family: "Roboto","Noto Sans Malayalam",sans-serif;
+  background-color: #a0cd44 !important;
+  color: black !important;
+}
+
+.manorama h1 {
+  font-family: "PT Serif", serif;
+  background-color: #93b6ee !important;
+  color: black !important;
 }

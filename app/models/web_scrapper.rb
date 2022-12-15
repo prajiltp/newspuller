@@ -25,7 +25,7 @@ class WebScrapper < Kimurai::Base
 
   def mathrubhumi_parser(response)
     news = []
-    response.xpath("//div[contains(@class, 'mpp-section-card')]").each_with_index do |container, i|
+    response.xpath("//div[contains(@class, 'mpp-section-card-content-details')]").each_with_index do |container, i|
       next unless container.at('h1') && container.at('p').text.html_safe != 'News'
 
       heading = container.at('h1').text.html_safe
