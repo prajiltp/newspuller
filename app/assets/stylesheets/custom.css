@@ -3975,11 +3975,11 @@ position: absolute;
 }
 
 .carousel-icon {
-  background-color: #a0bf9e;
+  background-color: #a0cd44;
   size: 20px;
   width: 2em !important;
   height: 3em !important;
-  top: 36.9% !important;
+  top: 37.5% !important;
   position: fixed;
 }
 
@@ -4016,7 +4016,7 @@ position: absolute;
   text-align: center;
   font-weight: 700;
   font-size: 60px;
-  background-color: #a0bf9e;
+  background-color: #a0cd44;
   color: black;
 }
 
@@ -4026,12 +4026,10 @@ position: absolute;
 
 .mathrubhumi h1 {
   font-family: "Roboto","Noto Sans Malayalam",sans-serif;
-  background-color: #a0cd44 !important;
   color: black !important;
 }
 
 .manorama h1 {
   font-family: "PT Serif", serif;
-  background-color: #93b6ee !important;
   color: black !important;
 }
